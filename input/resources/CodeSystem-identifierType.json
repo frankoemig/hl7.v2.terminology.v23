@@ -1,0 +1,335 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "identifierType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-identifierType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/identifierType</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.3"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0203"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/identifierType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.108"
+  } ],
+  "version": "1.0.0",
+  "name": "IdentifierType",
+  "title": "Identifier Type (2.3 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "class",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#class",
+    "description": "class",
+    "type": "code"
+  } ],
+  "concept": [ {
+    "code": "AM",
+    "display": "American Express",
+    "definition": "American Express",
+    "designation": [ {
+      "language": "de",
+      "value": "American Express"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "AN",
+    "display": "Account Number",
+    "definition": "Account Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Kontonummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BR",
+    "display": "Birth Registry Number",
+    "definition": "Birth Registry Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Geburtsregisternummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DI",
+    "display": "Diner's Club Card",
+    "definition": "Diner's Club Card",
+    "designation": [ {
+      "language": "de",
+      "value": "Diners Club"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DL",
+    "display": "Driver's License Number",
+    "definition": "Driver's License Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Führerscheinnummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DN",
+    "display": "Doctor Number",
+    "definition": "Doctor Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Arztnummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DS",
+    "display": "Discover Card",
+    "definition": "Discover Card",
+    "designation": [ {
+      "language": "de",
+      "value": "Discover Card"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "EI",
+    "display": "Employee Number",
+    "definition": "Employee Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Arbeitnehmernummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "EN",
+    "display": "Employer Number",
+    "definition": "Employer Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Arbeitgebernummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "GI",
+    "display": "Guarantor Internal Identifier",
+    "definition": "Guarantor Internal Identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "interne ID des Zahlungspflichtigen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "GN",
+    "display": "Guarantor External Identifier",
+    "definition": "Guarantor External Identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "externe ID des Zahlungspflichtigen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MA",
+    "display": "Medicaid Number",
+    "definition": "Medicaid Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Armennummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MC",
+    "display": "Medicare Number",
+    "definition": "Medicare Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Rentnernummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MR",
+    "display": "Medical Record Number",
+    "definition": "Medical Record Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Krankenaktennummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MS",
+    "display": "Master Card",
+    "definition": "Master Card",
+    "designation": [ {
+      "language": "de",
+      "value": "MasterCard"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PI",
+    "display": "Patient Internal Identifier",
+    "definition": "Patient Internal Identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "interne Patienten-ID"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PT",
+    "display": "Patient External Identifier",
+    "definition": "Patient External Identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "externe Patienten-ID"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "RR",
+    "display": "Railroad Retirement Number",
+    "definition": "Railroad Retirement Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Seniorenkartennummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "SS",
+    "display": "Social Security Number",
+    "definition": "Social Security Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Sozialversicherungsnummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "VN",
+    "display": "Visit Number",
+    "definition": "Visit Number",
+    "designation": [ {
+      "language": "de",
+      "value": "Fallnummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "VS",
+    "display": "VISA",
+    "definition": "VISA",
+    "designation": [ {
+      "language": "de",
+      "value": "VISA"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "XX",
+    "display": "Organizaiton Indentifier",
+    "definition": "Organizaiton Indentifier",
+    "designation": [ {
+      "language": "de",
+      "value": "Organisations-ID"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  } ]
+}

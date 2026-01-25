@@ -1,0 +1,306 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "manufacturersOfVaccinesHL7",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-manufacturersOfVaccinesHL7.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/manufacturersOfVaccinesHL7</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.3"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0227"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/manufacturersOfVaccinesHL7",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.127"
+  } ],
+  "version": "1.0.0",
+  "name": "ManufacturersOfVaccinesHL7",
+  "title": "Manufacturers of Vaccines (code=MVX) (2.3 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of concepts specifying the organization that manufactures a vaccine. The values are maintained by the US Centers of Disease Control.  Used in HL7 Version 2.x messaging in the RXA, RXD and RXG segments.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "AB",
+    "display": "Abbott Laboratories",
+    "definition": "Abbott Laboratories",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "AD",
+    "display": "Adams",
+    "definition": "Adams",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ALP",
+    "display": "Alpha",
+    "definition": "Alpha",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "AR",
+    "display": "Armour",
+    "definition": "Armour",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BA",
+    "display": "Baxter",
+    "definition": "Baxter",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BAY",
+    "display": "Bayer Corporation",
+    "definition": "Bayer Corporation",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BP",
+    "display": "Berna Products",
+    "definition": "Berna Products",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CON",
+    "display": "Connaught",
+    "definition": "Connaught",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "EVN",
+    "display": "Evans",
+    "definition": "Evans",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "GRE",
+    "display": "Greer",
+    "definition": "Greer",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "IM",
+    "display": "Merieux",
+    "definition": "Merieux",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "IUS",
+    "display": "Immuno-US",
+    "definition": "Immuno-US",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "JPN",
+    "display": "Microbial Dis/Osaka U",
+    "definition": "Microbial Dis/Osaka U",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "KGC",
+    "display": "Korea Green Cross",
+    "definition": "Korea Green Cross",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "LED",
+    "display": "Lederle",
+    "definition": "Lederle",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MA",
+    "display": "Massachusetts Public Health",
+    "definition": "Massachusetts Public Health",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MIL",
+    "display": "Miles",
+    "definition": "Miles",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MIP",
+    "display": "Michigan Dept Public Health",
+    "definition": "Michigan Dept Public Health",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MSD",
+    "display": "Merck",
+    "definition": "Merck",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "NAB",
+    "display": "North American Biologicals, Inc.",
+    "definition": "North American Biologicals, Inc.",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "NYB",
+    "display": "New York Blood Center",
+    "definition": "New York Blood Center",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "OTC",
+    "display": "Organon Teknika",
+    "definition": "Organon Teknika",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "OTH",
+    "display": "Other",
+    "definition": "Other",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PD",
+    "display": "Parke Davis",
+    "definition": "Parke Davis",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PRX",
+    "display": "Praxis Biologics",
+    "definition": "Praxis Biologics",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "SCL",
+    "display": "Sclavo",
+    "definition": "Sclavo",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "SI",
+    "display": "Swiss Serum and Vaccine Inst.",
+    "definition": "Swiss Serum and Vaccine Inst.",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "SKB",
+    "display": "SmithKline",
+    "definition": "SmithKline",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "UNK",
+    "display": "Unknown manufacturer",
+    "definition": "Unknown manufacturer",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "WA",
+    "display": "Wyeth-Ayerst",
+    "definition": "Wyeth-Ayerst",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  } ]
+}

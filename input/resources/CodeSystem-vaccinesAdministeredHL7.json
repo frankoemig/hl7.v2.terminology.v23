@@ -1,0 +1,638 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "vaccinesAdministeredHL7",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-vaccinesAdministeredHL7.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/vaccinesAdministeredHL7</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.3"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0292"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/vaccinesAdministeredHL7",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.182"
+  } ],
+  "version": "1.0.0",
+  "name": "VaccinesAdministeredHL7",
+  "title": "Vaccines Administered (2.3 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of codes specifying the administered vaccines, and used only in HL7 releases 2.3, 2.3.1, and 2.4 of the standard.  This code system was superceded when  the US Centers of Disease Control began publishing the codes directly; the code system to be used now is 2.16.840.1.113883.12.292 PH_VaccinesAdministeredCVX_CDC_NIP.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "01",
+    "display": "DTP",
+    "definition": "DTP",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Diphtheria-tetanus-pertussis"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "02",
+    "display": "OPV",
+    "definition": "OPV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Poliovirus vaccine, oral"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "03",
+    "display": "MMR",
+    "definition": "MMR",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Measles-mumps-rubella"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "04",
+    "display": "M/R",
+    "definition": "M/R",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Measles & rubella"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "05",
+    "display": "Measles",
+    "definition": "Measles",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Measles"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "06",
+    "display": "Rubella",
+    "definition": "Rubella",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rubella"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "07",
+    "display": "Mumps",
+    "definition": "Mumps",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Mumps"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "08",
+    "display": "Hep B - adolescent or pediatric",
+    "definition": "Hep B - adolescent or pediatric",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Hepatitis B—adolescent or pediatric"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "09",
+    "display": "Td (Adult)",
+    "definition": "Td (Adult)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Tetanus-diphtheria"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "10",
+    "display": "IPV",
+    "definition": "IPV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Poliovirus vaccine,  inactivated"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "11",
+    "display": "Pertussis",
+    "definition": "Pertussis",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Pertussis"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "12",
+    "display": "Diphtheria antitoxin",
+    "definition": "Diphtheria antitoxin",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Diphtheria antitoxin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "13",
+    "display": "TIG",
+    "definition": "TIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Tetanus immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "14",
+    "display": "IG",
+    "definition": "IG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "15",
+    "display": "Influenza—split (incl. purified surface antigen)",
+    "definition": "Influenza—split (incl. purified surface antigen)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Influenza—split (incl. purified surface antigen)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "16",
+    "display": "Influenza—whole",
+    "definition": "Influenza—whole",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Influenza—whole"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "17",
+    "display": "Hib-unspecified",
+    "definition": "Hib-unspecified",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b conjugate—unspecified"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "18",
+    "display": "Rabies—intramuscular injection",
+    "definition": "Rabies—intramuscular injection",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rabies—intramuscular injection"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "19",
+    "display": "BCG",
+    "definition": "BCG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Bacillus of Calmette & Guerin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "20",
+    "display": "DTaP",
+    "definition": "DTaP",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Diphtheria-tetanus-acellular  pertussis"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "21",
+    "display": "Varicella",
+    "definition": "Varicella",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Varicella"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "22",
+    "display": "DTP-Hib",
+    "definition": "DTP-Hib",
+    "property": [ {
+      "code": "usage",
+      "valueString": "DTP-Haemophilus influenzae type b conjugate"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "23",
+    "display": "Plague",
+    "definition": "Plague",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Plague"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "24",
+    "display": "Anthrax",
+    "definition": "Anthrax",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Anthrax"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "25",
+    "display": "Typhoid—oral",
+    "definition": "Typhoid—oral",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Typhoid—oral"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "26",
+    "display": "Cholera",
+    "definition": "Cholera",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Cholera"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "27",
+    "display": "Botulinum antitoxin",
+    "definition": "Botulinum antitoxin",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Botulinum antitoxin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "28",
+    "display": "DT(pediatric)",
+    "definition": "DT(pediatric)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Diphtheria & tetanus toxoids (pediatric)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "29",
+    "display": "CMVIG",
+    "definition": "CMVIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Cytomegalovirus immune globulin, intravenous"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "30",
+    "display": "HBIG",
+    "definition": "HBIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Hepatitis B immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "31",
+    "display": "Hep A - pediatric",
+    "definition": "Hep A - pediatric",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Hepatitis A"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "32",
+    "display": "Meningococcal",
+    "definition": "Meningococcal",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Meningococcal"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "33",
+    "display": "Pneumococcal",
+    "definition": "Pneumococcal",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Pneumococcal"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "34",
+    "display": "RIG",
+    "definition": "RIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rabies immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "35",
+    "display": "Tetanus toxoid",
+    "definition": "Tetanus toxoid",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Tetanus toxoid"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "36",
+    "display": "VZIG",
+    "definition": "VZIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Varicella zoster immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "37",
+    "display": "Yellow fever",
+    "definition": "Yellow fever",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Yellow fever"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "38",
+    "display": "Rubella/Mumps",
+    "definition": "Rubella/Mumps",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rubella & Mumps"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "39",
+    "display": "Japanese encephalitis",
+    "definition": "Japanese encephalitis",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Japanese encephalitis"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "40",
+    "display": "Rabies-intradermal injection",
+    "definition": "Rabies—intradermal injection",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rabies—intradermal injection"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "41",
+    "display": "Typhoid-parenteral",
+    "definition": "Typhoid-parenteral",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Typhoid—parenteral"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "42",
+    "display": "Hep B- adolescent/high risk infant",
+    "definition": "Hep B- adolescent/high risk infant",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Hepatitis B—adolescent/high risk infant"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "43",
+    "display": "Hep B-adult",
+    "definition": "Hep B-adult",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Hepatitis B—adult"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "44",
+    "display": "Hep B-dialysis",
+    "definition": "Hep B-dialysis",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Hepatitis B—dialysis"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "45",
+    "display": "Hep B-other or unspecified",
+    "definition": "Hep B-other or unspecified",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Hepatitis B—other or unspecified"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "46",
+    "display": "Hib-PRP-D",
+    "definition": "Hib-PRP-D",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b conjugate—PRP-D"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "47",
+    "display": "Hib-HbOC",
+    "definition": "Hib-HbOC",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b conjugate—HbOC"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "48",
+    "display": "Hib-PRP-T",
+    "definition": "Hib-PRP-T",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b conjugate—PRP-T"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "49",
+    "display": "Hib-PRP-OMP",
+    "definition": "Hib-PRP-OMP",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b conjugate—PRP-OMP"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "50",
+    "display": "Dtap-Hib",
+    "definition": "Dtap-Hib",
+    "property": [ {
+      "code": "usage",
+      "valueString": "DTaP - Haemophilus influenzae type b conjugate"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "51",
+    "display": "Hib-Hep B",
+    "definition": "Hib-Hep B",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b conjugate - Heb-B"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "52",
+    "display": "Hep A - adult",
+    "definition": "Hep A - adult",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Hepatitis A"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  } ]
+}
